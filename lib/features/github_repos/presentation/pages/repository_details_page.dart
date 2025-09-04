@@ -198,7 +198,6 @@ class RepositoryDetailsPage extends StatelessWidget {
                         Text(
                           'github.com/${repository.ownerName}',
                           style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                            color: Theme.of(context).primaryColor,
                             decoration: TextDecoration.underline,
                           ),
                         ),
