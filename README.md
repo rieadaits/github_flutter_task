@@ -205,23 +205,6 @@ GET /search/repositories?q=flutter&sort=stars&order=desc&page=1&per_page=20
 - `GithubReposLoaded`: Success state with data
 - `GithubReposError`: Error state with message
 
-## Testing Strategy 🧪
-
-### Unit Tests
-- Domain entities and use cases
-- Repository implementations
-- BLoC logic and state transitions
-
-### Widget Tests
-- Individual widget behavior
-- UI interactions and animations
-- State changes and rebuilds
-
-### Integration Tests
-- End-to-end user flows
-- API integration
-- Database operations
-
 ## Performance Optimizations ⚡
 
 ### Network
@@ -253,24 +236,6 @@ GET /search/repositories?q=flutter&sort=stars&order=desc&page=1&per_page=20
 - **Code Preview**: Basic file browser for repositories
 - **Trending Repositories**: Daily/weekly trending lists
 - **User Profiles**: Complete GitHub user information
-
-## Contributing 🤝
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## License 📄
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Support 📧
-
-For support and questions, please contact:
-- **Email**: support@example.com
-- **Issues**: [GitHub Issues](https://github.com/username/repo/issues)
 
 ---
 
